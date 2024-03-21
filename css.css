@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background: blue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.introduction-section {
+  background: aqua;
+  line-height: 25px;
+  padding: 10px;
+}
+h1 {
+  font-size: 40px;
+  color: #722424;
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+.container {
+  width: 0 auto;
+  height: 50%;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px black;
+  position: relative;
+  align-items: center;
+}
+.container p {
+  width: 50px auto;
+  text-align: center;
+  line-height: 25px;
+}
+.skills-section {
+  background: red;
+  line-height: 25px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.skills-section ul li {
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #722424;
+  margin: 20px;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.skills-section ul li:hover {
+  color: #fff;
+  background: #230996;
+  transition: 0.5s;
+}
+.contact-section {
+  padding: 10px;
+  background: #878d8dd5;
+  line-height: 25px;
+  margin: 0;
+}
+.contact-section p {
+  margin-top: 30px;
+}
+.contact-section a {
+  text-decoration: none;
+  color: #814040;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.contact-section a:hover {
+  color: #fe004a;
+}
+.contact-section p i {
+  color: #ff004f;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social-icons {
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.social-icons li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  list-style-type: none;
+}
+
+.social-icons a {
+  text-align: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ff004f;
+  display: inline-block;
+  transition: transform 0.5s;
+}
